@@ -1,10 +1,12 @@
-﻿namespace SnakeAndLadderProblem
+﻿using System;
+
+class Program
 {
-    internal class Program
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Welcome To The Snake and Ladder Game");
-        }
+        Console.WriteLine("Welcome To Snake And Ladder");
+        Play game = new Play();
+        game.PlaySnakeAndLadder();
+       
     }
 }
